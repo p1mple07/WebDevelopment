@@ -1,0 +1,179 @@
+.title h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: 15px;
+    margin: 0px;
+    border: 0px;
+    background-color: #656CEC;
+    color: white;
+    font-weight: normal;
+    
+    
+}
+.topThree{
+    background-color: #656CEC;
+    margin: 0px;
+    border: 0px;
+    padding: 15px;
+    
+    border-radius: 0px 0px 50px 50px;
+}
+.playerName span:hover{
+    text-decoration: underline;
+
+
+}
+
+.flexcontainer{
+    display: flex;
+    margin: 30px 0px 0px 0px;
+    
+}
+.box{
+    height: 200px;
+    width: 100px;
+    flex-grow: 1;
+    text-align: center;
+    
+    
+}
+.first{
+    flex-grow: 1.5;
+}
+
+.line{
+    height: 2px;
+    border: none;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.position{
+    background-color: #babeff;
+    color: white;
+    display: inline-block;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    
+}
+.emptycircle{
+    background-color: #babeff;
+    display: inline-block;
+    margin: 10px;
+    padding: 0px;
+    
+    border: 4px solid white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+}
+.emptycircle:hover{
+    position: relative;
+    top: -3px;
+    
+}
+.first .emptycircle{
+    background-color: #babeff;
+    display: inline-block;
+    margin: 10px;
+    padding: 0px;
+    
+    border: 4px solid white;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+
+}
+.forFirst{
+    position: relative;
+    bottom: 14%;
+}
+.playerName{
+    display: inline-block;
+    background-color: #babeff;
+    position: relative;
+    height: 25px;
+    width: 40%;
+    border-radius: 20px;
+}
+.playerName span{
+    position: relative;
+    color: white;
+    top: 10%;
+
+}
+.theRest{
+    margin: 8px;
+}
+
+
+
+
+.theRestDiv{
+    background-color: #d2d4f2;
+    border: 4px solid white;
+    height: 60px;
+ 
+}
+
+.theRestDiv .circle{
+    background-color: #babeff;
+    display: inline-block;
+    position: relative;
+    left: 3.5%;
+    top: 2.5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2.5px solid white;
+    padding: 0px;
+    margin: 0px 20px;
+
+}
+.theRestDiv .circle:hover{
+    position: relative;
+    top: -1px;
+
+}
+.theRestDiv .circle .name{
+    position: relative;
+    left: 175%;
+    top: 25%;
+    font-size: larger;
+    
+}
+.theRestDiv .circle .name:hover{
+    position: relative;
+    left: 175%;
+    top: 25%;
+    font-size: larger;
+    text-decoration: underline;
+    
+}
+
+.theRestDiv .points{
+    position: relative;
+    display: inline-block;
+    left:80%;
+    top: 25%;
+    font-size: larger;
+}
+
+.sNo{
+    position: relative;
+    font-size: larger;
+    display: inline-block;
+    top: 25%;
+    left: 2%;
+    
+}
+.theRestDiv span{
+    font-family: 'Trebuchet MS', sans-serif;
+}
